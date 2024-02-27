@@ -1,0 +1,32 @@
+/* common styles */
+.font-merri {
+    font-family: "Merriweather", serif;
+}
+
+/* ------ */
+
+.banner {
+    background-image: url('images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.banner-info-container {
+    text-align: center;
+}
+
+.banner-info-container>p {
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.banner-info-container h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+}
