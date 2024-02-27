@@ -8,7 +8,7 @@
 }
 
 /* ------ */
-
+/* Banner styles */
 .banner {
     background-image: url('images/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -33,4 +33,38 @@
 .banner-info-container h1 {
     color: #FFFFFF;
     font-size: 72px;
+}
+
+/* ------ */
+
+/* Offers section styles */
+.offer-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.offer-container {
+    text-align: center;
+    background-color: aqua;
+    padding: 0 50px 20px 50px;
+    border-radius: 10px;
+}
+
+.offer-container>h1 {
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.offer-container>p {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-container>h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
 }
