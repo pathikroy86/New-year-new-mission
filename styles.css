@@ -281,3 +281,47 @@ body {
     background-position-x: 150px;
     margin-left: 180px;
 }
+
+/* -------------------------------- */
+/* Best gifts styles */
+.best-gifts {
+    margin-bottom: 100px;
+}
+
+.best-gifts>h5 {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.best-gifts>h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.best-gifts>p {
+    color: darkgray;
+    font-size: 20px;
+}
+
+.first-row {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.first-row img {
+    width: 100%;
+}
+
+.second-row {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.second-row img {
+    width: 100%;
+}
