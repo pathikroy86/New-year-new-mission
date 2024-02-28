@@ -164,6 +164,7 @@ body {
 .new-best-offer {
     display: flex;
     justify-content: center;
+    margin-bottom: 100PX;
 }
 
 .new-best-offer-container {
@@ -219,4 +220,64 @@ body {
 .new-year-text-image>p {
     color: darkgrey;
     font-size: 20px;
+}
+
+/* ----------------------------- */
+/* Holiday sell styles */
+.holiday-sale {
+    margin-bottom: 100px;
+}
+
+.holiday-sale-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.holiday-sale-container>h5 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.holiday-sale-container>h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.holiday-sale-container>h1>span {
+    color: #FF0000;
+}
+
+.holiday-sale-container>p {
+    color: darkgray;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sale-image-container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.gift-box-image>img {
+    width: 80%;
+}
+
+.discount-image-container {
+    width: 50%;
+    display: flex;
+}
+
+.discount-image {
+    width: 100%;
+    background-image: url('images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    margin-left: 180px;
 }
