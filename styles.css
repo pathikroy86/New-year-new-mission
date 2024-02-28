@@ -8,11 +8,17 @@
 }
 
 /* ------ */
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Banner styles */
 .banner {
     background-image: url('images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position-x: center;
+    background-size: cover;
     height: 600px;
     display: flex;
     align-items: center;
@@ -76,6 +82,7 @@
     background-image: url('images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position-x: center;
+    background-size: cover;
     height: 600px;
     margin-bottom: 100px;
     display: flex;
@@ -83,6 +90,7 @@
 }
 
 .party-join-container {
+    width: 100%;
     padding-left: 100px;
 }
 
@@ -152,3 +160,63 @@
 }
 
 /* -------------------------- */
+/* New year best offer styles */
+.new-best-offer {
+    display: flex;
+    justify-content: center;
+}
+
+.new-best-offer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.coming-soon {
+    width: 33%;
+    margin-right: 20px;
+}
+
+.coming-soon>h5 {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.coming-soon>h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.coming-soon>p {
+    color: darkgrey;
+    font-size: 20px;
+}
+
+.celebration-image {
+    width: 33%;
+    margin-right: 60px;
+}
+
+.celebration-image>img {
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #FF0000;
+    border-radius: 50%;
+}
+
+.new-year-text-image {
+    width: 33%;
+}
+
+.new-year-text-image>h1 {
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.new-year-text-image>p {
+    color: darkgrey;
+    font-size: 20px;
+}
