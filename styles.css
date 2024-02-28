@@ -111,3 +111,44 @@
 }
 
 /* ------------------------------------ */
+/* Event Schedule Styles */
+.event-schedule {
+    height: 482px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.609));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.event-schedule-container {
+    text-align: center;
+}
+
+.event-schedule-container p {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.event-schedule-container span {
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.event-schedule-container button {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FF0000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.event-schedule-container button:hover {
+    background-color: #760606a7;
+}
+
+/* -------------------------- */
