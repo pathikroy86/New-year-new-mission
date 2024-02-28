@@ -68,3 +68,16 @@
     font-size: 48px;
     font-weight: bold;
 }
+
+/* ----------------------- */
+
+/* Mid night party styles */
+.mid-night-party-join {
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.party-join-container {}
