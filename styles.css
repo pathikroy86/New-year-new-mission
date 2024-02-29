@@ -326,6 +326,36 @@ body {
     width: 100%;
 }
 
+.first-image:hover {
+    width: 80%;
+    height: 80%;
+}
+
+.second-image:hover {
+    width: 80%;
+    height: 80%;
+}
+
+.third-image:hover {
+    width: 80%;
+    height: 80%;
+}
+
+.forth-image:hover {
+    width: 80%;
+    height: 80%;
+}
+
+.fifth-image:hover {
+    width: 80%;
+    height: 80%;
+}
+
+.sixth-image:hover {
+    width: 80%;
+    height: 80%;
+}
+
 /* ------------------------ */
 /* Subscription styles */
 .subscription {
